@@ -27,6 +27,7 @@ function searchName(key, till, callback) {
     console.log(hasilAkhir)
 }
 
+//key = 'an', tampilkan hanya 3 value, callback func check()
 searchName('an', 3, check)
 
 
