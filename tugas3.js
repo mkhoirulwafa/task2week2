@@ -28,7 +28,7 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
     if (isValid) {
         //tampilkan hanya diantara nilaiAwal dan nilaiAkhir
         let hasilAkhir = dataArray.filter(item => item > nilaiAwal && item < nilaiAkhir)
-        //sorting
+        //sorting, a-b untuk mengurutkan semua digit, bukan hanya digit awal
         console.log(hasilAkhir.sort((a, b) => a - b))
     }
 }
